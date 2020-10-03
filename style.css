@@ -1,4 +1,9 @@
+/* デフォルト設定 */
 body{background-color:aquamarine;}
+
+h1 {
+	font-size:2em
+}
 p {
     font-size:1em
 }
@@ -7,30 +12,36 @@ a {
     font-size:1em
 }
 
-ul {
-	list-style-type: none;
+ul.topnav {
+	overflow: hidden;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	list-style-type: none;
 	background-color: #1b2538;
 }
-li {
+ul.topnav li {
 	float: left;
-	border-right: 1px solid #bbbbbb;
 }
-li:last-child {
-	border-right: none;
-}
-li a {
+ul.topnav li a {
 	display: block;
-	color: white;
-	text-align: center;
 	padding: 14px 16px;
+	text-align: center;
 	text-decoration: none;
+	color: white;
 }
-li a:hover:not(.active) {
+ul.topnav li a:hover:not(.active) {
 	background-color: #a9bce2;
 }
-.active {
+ul.topnav li a.active {
 	background-color: #da3c41;
+}
+ul.topnav li.right {
+	float: right;
+}
+
+/* 横並びのメニュー レスポンシブ対応 */
+@media screen and (max-width: 480px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
 }
