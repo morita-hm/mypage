@@ -7,22 +7,26 @@ html {
 
 
 body{
-	/* background-color:aquamarine; */
-	background-image: url("84678.jpg");
+	background-color:aquamarine;
+	/* background-image: url("84678.jpg"); */
 }
 
 .intro {
-	background-image: url("money-2696228_640.jpg");
+	/*background-image: url("money-2696228_640.jpg"); */
+	/* background-size: contain; */
+	background-color: cyan;
 }
 
 .intro p {
-	font-size:1.5em;
+	font:bold;
+	font-size:1em;
 	color:black;
 }
 
 .menu {
-	text-align: center;
-	background-image: url("publicdomainq-0015378crg.jpg");
+	/*text-align: center;*/
+	background-image: url("publicdomainq-0030673cop.jpg");
+	background-size: contain;
 }
 
 .menu p {
