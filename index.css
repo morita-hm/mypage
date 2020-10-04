@@ -11,31 +11,33 @@ body{
 }
 
 .intro {
-	width:480px;
-	font-size:2em;
 	background-image: url("money-2696229_640.jpg");
 }
 
 .intro p {
-	width:480px;
-	font-size:2em;
-	color:whitesmoke;	
+	font-size:1.5em;
+	color:lightcoral;	
 }
 
 .next_seminar {
-	width:480px;
-	font-size:2em;
 	background-image: url("publicdomainq-0015378crg.jpg");
 }
 
 .next_seminar p {
-	width:480px;
-	font-size:2em;
+	font-size:1em;
+	color:whitesmoke;
+}
+
+.remote {
+	background-image: url("publicdomainq-0030673cop.jpg");
+}
+.remote p {
+	font: size 1em;
 	color:whitesmoke;
 }
 
 h1 {
-	font-size:1em
+	font-size:1.5em
 }
 p {
     font-size:1em
