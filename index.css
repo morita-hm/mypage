@@ -5,17 +5,37 @@ html {
 	font-family: 'Noto Serif JP', serif;
 }
 
-/*
+
 body{
 	background-color:aquamarine;
 }
-*/
-body {
+
+.intro {
+	width:480px;
+	font-size:2em;
 	background-image: url("money-2696229_640.jpg");
 }
 
+.intro p {
+	width:480px;
+	font-size:2em;
+	color:whitesmoke;	
+}
+
+.next_seminar {
+	width:480px;
+	font-size:2em;
+	background-image: url("publicdomainq-0015378crg.jpg");
+}
+
+.next_seminar p {
+	width:480px;
+	font-size:2em;
+	color:whitesmoke;
+}
+
 h1 {
-	font-size:2em
+	font-size:1em
 }
 p {
     font-size:1em
