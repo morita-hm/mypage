@@ -7,18 +7,30 @@ html {
 
 
 body{
-	background-color:aquamarine;
+	/* background-color:aquamarine; */
+	background-image: url("84678.jpg");
 }
 
 .intro {
-	background-image: url("money-2696229_640.jpg");
+	background-image: url("money-2696228_640.jpg");
 }
 
 .intro p {
 	font-size:1.5em;
-	color:lightcoral;	
+	color:black;
 }
 
+.menu {
+	text-align: center;
+	background-image: url("publicdomainq-0015378crg.jpg");
+}
+
+.menu p {
+	font-size:1em;
+	color:whitesmoke;
+}
+
+/*
 .next_seminar {
 	background-image: url("publicdomainq-0015378crg.jpg");
 }
@@ -35,6 +47,7 @@ body{
 	font: size 1em;
 	color:whitesmoke;
 }
+*/
 
 h1 {
 	font-size:1.5em
