@@ -1,5 +1,18 @@
 /* デフォルト設定 */
-body{background-color:aquamarine;}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Serif JP', serif;
+}
+
+/*
+body{
+	background-color:aquamarine;
+}
+*/
+body {
+	background-image: url("town.png");
+}
 
 h1 {
 	font-size:2em
@@ -19,9 +32,11 @@ ul.topnav {
 	list-style-type: none;
 	background-color: #1b2538;
 }
+
 ul.topnav li {
 	float: left;
 }
+
 ul.topnav li a {
 	display: block;
 	padding: 14px 16px;
